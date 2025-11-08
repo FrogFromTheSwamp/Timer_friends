@@ -52,4 +52,4 @@ const timer = (deadline) => {
   updateClock();
 };
 
-timer("11 november 2025");
+timer("11 november 2025 09:00:00");
