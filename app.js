@@ -3,23 +3,6 @@ particlesJS.load("particles-js", "assets/particles.json", function () {
   console.log("callback - particles.js config loaded");
 });
 
-// Инициализация Swiper с эффектом карточек
-document.addEventListener("DOMContentLoaded", function () {
-  var swiper = new Swiper(".mySwiper", {
-    effect: "cards",
-    grabCursor: true,
-    // Дополнительные настройки (опционально)
-    loop: true,
-    // Настройки для эффекта карточек
-    cardsEffect: {
-      slideShadows: true, // Включить тени
-      rotate: true, // Вращение карточек
-      perSlideOffset: 8, // Смещение между карточками
-      perSlideRotate: 2, // Угол поворота карточек
-    },
-  });
-});
-
 const timer = (deadline) => {
   const timerHours = document.getElementById("timer-hours");
   const timerMinutes = document.getElementById("timer-minutes");
